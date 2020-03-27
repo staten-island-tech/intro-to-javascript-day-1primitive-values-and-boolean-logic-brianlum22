@@ -40,7 +40,7 @@ if (school === "Elementary"){
     console.log("You are in HS");
 }*/
 
-let light = "yellow";
+let light = "red";
 if (light === "green") {
     console.log("go");
 } else if (light === "yellow") {
