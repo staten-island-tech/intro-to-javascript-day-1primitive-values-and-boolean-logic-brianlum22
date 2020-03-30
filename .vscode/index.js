@@ -40,7 +40,8 @@ if (school === "Elementary"){
     console.log("You are in HS");
 }*/
 
-let light = "red";
+/*let light = "green";
+
 if (light === "green") {
     console.log("go");
 } else if (light === "yellow") {
@@ -50,17 +51,19 @@ if (light === "green") {
 }
 
 let kristyLactInt = "true";
-let baoBaoLactInt = "true";
+let baoBaoLactint = "false";
 
-if (kristyLactInt === true &&  baoBaoLactInt == true) {
+if (kristyLactInt === true &&  baoBaoLactint == true) {
     console.log("Get Almond Milk");
-} else if (kristyLactInt === true || baoBaoLactInt == true) {
+} else if (kristyLactInt === true || baoBaoLactint == 
+true) {
     console.log ("Get Both");
 } else {
     console.log("Only milk");
 }
 
-let temp = 72;
+let temp = 69;
+
 if (temp < 68) {
     console.log("too cold");
 } else if (temp >= 68 && temp <= 72) {
@@ -69,5 +72,74 @@ if (temp < 68) {
     console.log("warm");
 } else {
     console.log ("too hot");
+}*/
+
+/*function test() {
+    console.log("TEST");
 }
+test ();
+
+function argument(name1, name2) {
+    console.log(name1, name2);
+}
+argument("brian", "kenny");*/
+
+/*const add = function(x,y){
+    return x + y; //immediately ends the function
+};
+console.log(add(10, 3))*/
+
+/*const hello = function() {
+    alert("hello");
+};
+const bye = function() {
+    alert("bye");
+};
+
+const beatles = function() {
+    hello()
+    bye()
+    hello()
+    bye()
+}
+beatles();*/
+
+/*function makeFunc() {
+    //closure
+    //function scope
+    const name = "Whalen"; 
+    function displayName(){
+        alert(name);
+    }
+    return displayName;
+}
+
+const myFunc = makeFunc();
+myFunc();*/
+
+/*const names = ["Bob", "Ingrid", "Tucker", "Chris", "Hal"];
+//names.push("Caroline");
+//let newNames = names.unshift("Brian");
+names.forEach(name => console.log(name));
+
+const numbers = [1, 2, 3]
+
+const add = function(x, y, z) {
+    return x + y + z
+}
+console.log(add(...numbers))*/
+
+let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa", "Richard"];
+const result = students.filter(students => students.length > 4);
+console.log(result);
+
+let students2 = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa", "Richard"];
+console.log(students2.includes("Junshen"));
+
+let students3 = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa", "Richard"];
+console.log(students3.includes("Alan", "Saava"))
+
+
+
+
 
